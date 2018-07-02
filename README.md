@@ -33,12 +33,12 @@ camera to the adaptor plate.
 
 Changes made:
 
-   updated to Python 3  
-   added () to print statements  
-   added background subtraction  
-   added io for lights, etc, renaming pins  
-   changed selection of spells  
-   updated command line arguments:  
-      --trace   print trace and additional lines to help diagnose problems  
-      --bgsub   subtract background to enhance signal definition  
-   added in the code for background subtraction and trace printing
+*   updated to Python 3  
+*   added () to print statements  
+*   added background subtraction  
+*   added io for lights, etc, renaming pins  
+*   changed selection of spells  
+*   updated command line arguments:  
+*      --trace   print trace and additional lines to help diagnose problems  
+*      --bgsub   subtract background to enhance signal definition  
+*   added in the code for background subtraction and trace printing
