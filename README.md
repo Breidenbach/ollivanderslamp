@@ -8,12 +8,12 @@ Updates base on Python 3
 
 Files included:
 	IR array and controller - photo of the IR array and the PC board which interfaces
-		to the 12V power.
-	IR array front - photo showing the IR array.
-	IR array full set - photo of the IR array, controller, and 12V power block.
+		to the 12V power.  
+	IR array front - photo showing the IR array.  
+	IR array full set - photo of the IR array, controller, and 12V power block.  
 	IR Camera Adaptor Plate.skp - SketchUp file of the adaptor plate used to attach
-		the camera to the back of the IR array.
-	IR Camera Adaptor Plate.pdf - top view of the adaptor plate and the IR array.
+		the camera to the back of the IR array.  
+	IR Camera Adaptor Plate.pdf - top view of the adaptor plate and the IR array.  
 	IR Camera Assembly Photo.jpg - picture of the completed assembly
 	
 The IR camera array attaches the camera behind the IR array, so that the field of view
