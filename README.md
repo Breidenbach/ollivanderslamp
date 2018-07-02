@@ -2,6 +2,8 @@
 Magic lamp based on Sean O'Brian, revised by mamacker
 Updates base on Python 3 
 
+Hardware:
+
 The IR array / pi camera assembly
 
 Files included:
@@ -23,3 +25,7 @@ The three existing holes around the array are enlarged with a #41 drill to accom
 a 2-56 x 1.25 mm bolt.  Three bolts hold the adaptor plate to the IR array.  4 mm spacers
 separate the adaptor plate from the IR array.  Four 2-56 x .6 mm bolts hold the pi
 camera to the adaptor plate.
+
+Software:
+
+trained.py is based on the mamacker/pi_to_potter trainedwpins.py
