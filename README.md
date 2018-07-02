@@ -4,7 +4,7 @@ Updates base on Python 3
 
 ## Hardware:
 
-The IR array / pi camera assembly
+### The IR array / pi camera assembly
 
 Files included:
 	IR array and controller - photo of the IR array and the PC board which interfaces
@@ -28,7 +28,7 @@ camera to the adaptor plate.
 
 ## Software:
 
-trained.py is based on the mamacker/pi_to_potter trainedwpins.py
+### trained.py is based on the mamacker/pi_to_potter trainedwpins.py
 
 Changes made:
 	updated to Python 3
