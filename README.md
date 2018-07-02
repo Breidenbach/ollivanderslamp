@@ -29,6 +29,7 @@ camera to the adaptor plate.
 Software:
 
 trained.py is based on the mamacker/pi_to_potter trainedwpins.py
+
 Changes made:
 	updated to Python 3
 	added () to print statements
