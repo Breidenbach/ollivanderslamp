@@ -1,20 +1,21 @@
 # ollivanderslamp
-Magic lamp based on Sean O'Brian, revised by mamacker
+## Magic lamp based on Sean O'Brian, revised by mamacker
 Updates base on Python 3 
 
-Hardware:
+## Hardware:
 
-The IR array / pi camera assembly
+### The IR array / pi camera assembly
 
 Files included:
-	IR array and controller - photo of the IR array and the PC board which interfaces
-		to the 12V power.
-	IR array front - photo showing the IR array.
-	IR array full set - photo of the IR array, controller, and 12V power block.
-	IR Camera Adaptor Plate.skp - SketchUp file of the adaptor plate used to attach
-		the camera to the back of the IR array.
-	IR Camera Adaptor Plate.pdf - top view of the adaptor plate and the IR array.
-	IR Camera Assembly Photo.jpg - picture of the completed assembly
+
+*   IR array and controller - photo of the IR array and the PC board which interfaces
+		to the 12V power.  
+*   IR array front - photo showing the IR array.  
+*   IR array full set - photo of the IR array, controller, and 12V power block.  
+*   IR Camera Adaptor Plate.skp - SketchUp file of the adaptor plate used to attach
+		the camera to the back of the IR array.  
+*   IR Camera Adaptor Plate.pdf - top view of the adaptor plate and the IR array.  
+*   IR Camera Assembly Photo.jpg - picture of the completed assembly
 	
 The IR camera array attaches the camera behind the IR array, so that the field of view
 for the camera, through the center hole of the IR array, is fully illuminated by The
@@ -26,6 +27,18 @@ a 2-56 x 1.25 mm bolt.  Three bolts hold the adaptor plate to the IR array.  4 m
 separate the adaptor plate from the IR array.  Four 2-56 x .6 mm bolts hold the pi
 camera to the adaptor plate.
 
-Software:
+## Software:
 
-trained.py is based on the mamacker/pi_to_potter trainedwpins.py
+### trained.py is based on the mamacker/pi_to_potter trainedwpins.py
+
+Changes made:
+
+*   updated to Python 3  
+*   added () to print statements  
+*   added background subtraction  
+*   added io for lights, etc, renaming pins  
+*   changed selection of spells  
+*   updated command line arguments:  
+*      --trace   print trace and additional lines to help diagnose problems  
+*      --bgsub   subtract background to enhance signal definition  
+*   added in the code for background subtraction and trace printing
